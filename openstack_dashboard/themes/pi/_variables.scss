@@ -28,12 +28,17 @@ $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
 
 
+$purple:                #800080 !default;
+$blue-violet:           #8A2BE2 !default;
+$violet-darker:         #a300a1 !default;
+
+
 //== Scaffolding
 //
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               rgb(163, 0, 161) !default;
+$body-bg:              #fff  !default;
 //** Global text color on `<body>`.
 $text-color:            $gray-dark !default;
 
@@ -204,7 +209,7 @@ $input-height-large:             (ceil($font-size-large * $line-height-large) + 
 //** Small `.form-control` height
 $input-height-small:             (floor($font-size-small * $line-height-small) + ($padding-small-vertical * 2) + 2) !default;
 
-$legend-color:                   $gray-dark !default;
+$legend-color:                   $violet-darker !default;
 $legend-border-color:            #e5e5e5 !default;
 
 //** Background color for textual input addons
